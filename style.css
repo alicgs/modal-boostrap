@@ -1,0 +1,134 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  z-index: 3;
+  width: 100%;
+  position: fixed;
+  background: linear-gradient(45deg, #f90000, #000000) !important;
+}
+
+.collapse {
+  color: white !important;
+}
+
+.btn-color {
+  border-radius: 10px;
+  background-color: #a92020;
+  color: white;
+}
+
+.btn-color:hover {
+  background-color: white;
+  color: #f90000;
+}
+
+.modal-header {
+  background: linear-gradient(45deg, #f90000, #000000) !important;
+}
+
+.app-badge {
+  border-radius: 5px;
+}
+.masthead {
+  min-height: 701px;
+}
+
+#img-logo {
+  width: 500px;
+  position: absolute;
+  z-index: -1;
+}
+
+#img-phone {
+  z-index: -1;
+  width: 260px;
+  /*  margin-left: 168px ;
+    margin-top: 40px; */
+}
+
+.img-blure {
+  width: 250px;
+  background-color: #000000;
+  border-radius: 50%;
+  height: 300px;
+  position: absolute;
+  z-index: -3;
+  left: 230px;
+  top: 120px;
+  filter: blur(70px);
+}
+
+aside {
+  background: linear-gradient(45deg, #f90000, #000000) !important;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+#logo-body {
+  width: 6rem;
+  z-index: 3;
+}
+
+.img-body {
+  width: 90px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 355px;
+  z-index: 1;
+  filter: blur(18px);
+}
+
+.icon-hover:hover {
+  color: #f90000;
+}
+
+.features {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.img-frame {
+  max-width: 100%;
+  height: auto;
+}
+
+#imgChar {
+  border-radius: 100px;
+  bottom: 0;
+  width: 345px !important;
+  position: absolute;
+  z-index: -1;
+  left: 40px;
+}
+
+.bg-light{
+  padding-bottom: 4rem;
+}
+
+section.cta {
+  position: relative;
+  padding: 15rem 0;
+  background-image: url(assets/img/apex-harita-wp.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+aside.asidePict{
+  position: relative;
+  /* padding: 15rem 0; */
+  background-image: url(assets/img/apex-hero-wp.jpg) !important;
+  background-position: center;
+  background-size: cover;
+}
+
+#download{
+  padding-top: 5rem;
+    padding-bottom: 5rem;
+  background: linear-gradient(45deg, #f90000, #000000) !important;
+}
+
