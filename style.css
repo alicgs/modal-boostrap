@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -137,7 +138,7 @@ aside.asidePict {
   width: 140px;
   position: absolute;
   z-index: 2;
-  filter: drop-shadow(10px 0px 60px #ff0000);
+  filter: drop-shadow(2px 2px 60px #ff0000);
 }
 
 #lootApex {
@@ -181,4 +182,12 @@ aside.asidePict {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: red;
+}
+
+.modal-body{
+  padding: 1.5rem!important;
+}
+
+#submitButton{
+  background: linear-gradient(45deg, #f90000, #000000) !important;
 }

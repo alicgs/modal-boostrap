@@ -128,8 +128,18 @@
                   alt="phone"
                 />
 
-                <img class="img-fluid" id="apexCoin" src="assets/img/apex-coin.png" alt="">
-                <img class="img-fluid" id="lootApex" src="assets/img/loot-apex.png" alt="">
+                <img
+                  class="img-fluid"
+                  id="apexCoin"
+                  src="assets/img/apex-coin.png"
+                  alt=""
+                />
+                <img
+                  class="img-fluid"
+                  id="lootApex"
+                  src="assets/img/loot-apex.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -296,11 +306,17 @@
           <div class="col-sm-8 col-md-6">
             <div class="px-5 px-sm-0">
               <img
-                class="img-fluid rounded-circle" id="predatOr"
+                class="img-fluid rounded-circle"
+                id="predatOr"
                 src="assets/img/Apex_Predator.png"
                 alt="..."
               />
-              <img class="" id="apexBronz" src="assets/img/apex-bronz.png" alt="">
+              <img
+                class=""
+                id="apexBronz"
+                src="assets/img/apex-bronz.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -378,31 +394,67 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="recipient-name" class="col-form-label"
-                  >Recipient:</label
-                >
-                <input type="text" class="form-control" id="recipient-name" />
-              </div>
-              <div class="mb-3">
-                <label for="message-text" class="col-form-label"
-                  >Message:</label
-                >
-                <textarea class="form-control" id="message-text"></textarea>
+          <div class="modal-body border-0 p-4">
+            <form
+              action="https://formsubmit.co/alicigis3@gmail.com"
+              method="POST"
+            >
+              <div class="contactForm">
+                <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="name"
+                    type="text"
+                    placeholder="Enter your name..."
+                  />
+                  <label for="name">Full name</label>
+                  <div class="invalid-feedback">A name is required.</div>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="email"
+                    type="email"
+                    placeholder="name@example.com"
+                  />
+                  <label for="email">Email address</label>
+                  <div class="invalid-feedback">An email is required.</div>
+                  <div class="invalid-feedback">Email is not valid.</div>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    class="form-control"
+                    id="phone"
+                    type="tel"
+                    placeholder="(123) 456-7890"
+                  />
+                  <label for="phone">Phone number</label>
+                  <div class="invalid-feedback">
+                    A phone number is required.
+                  </div>
+                </div>
+                <div class="form-floating mb-3">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    type="text"
+                    placeholder="Enter your message here..."
+                    style="height: 10rem"
+                  ></textarea>
+                  <label for="message">Message</label>
+                  <div class="invalid-feedback">A message is required.</div>
+                  <div class="d-grid">
+                    <button
+                      class="btn btn-primary rounded-pill btn-lg"
+                      id="submitButton"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
               </div>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Send message</button>
           </div>
         </div>
       </div>
