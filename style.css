@@ -45,8 +45,10 @@ body {
 #img-phone {
   z-index: -1;
   width: 260px;
-  /*  margin-left: 168px ;
-    margin-top: 40px; */
+}
+
+#Phone-icon{
+  filter: drop-shadow(2px 2px 20px #ff0000);
 }
 
 .img-blure {
@@ -160,6 +162,13 @@ aside.asidePict {
 #predatOr {
   filter: drop-shadow(2px 2px 30px #ff0000);
 }
+
+/* #legend-icon{
+ 
+} */
+
+
+
 
 /* width */
 ::-webkit-scrollbar {
