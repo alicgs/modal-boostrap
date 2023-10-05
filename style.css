@@ -139,6 +139,7 @@ aside.asidePict{
   width: 140px;
   position: absolute;
   z-index: 2;
+  filter: drop-shadow(10px 0px 60px #ff0000);
 }
 
 #lootApex{
@@ -147,6 +148,7 @@ aside.asidePict{
   width: 200px;
   position: absolute;
   z-index: 1;
+  filter: drop-shadow(5px 5px 60px #ff0000);
 }
 
 #apexBronz{
@@ -154,5 +156,10 @@ aside.asidePict{
   width: 150px;
   position: absolute;
   z-index: 1;
+  filter: drop-shadow(2px 2px 5px #ff0000);
 
+}
+
+#predatOr{
+  filter: drop-shadow(2px 2px 30px #ff0000);
 }
