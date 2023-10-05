@@ -42,7 +42,6 @@ body {
 }
 
 #img-phone {
-  
   z-index: -1;
   width: 260px;
   /*  margin-left: 168px ;
@@ -106,7 +105,7 @@ aside {
   left: 40px;
 }
 
-.bg-light{
+.bg-light {
   padding-bottom: 4rem;
 }
 
@@ -116,10 +115,9 @@ section.cta {
   background-image: url(assets/img/apex-harita-wp.jpg);
   background-position: center;
   background-size: cover;
-  
 }
 
-aside.asidePict{
+aside.asidePict {
   position: relative;
   /* padding: 15rem 0; */
   background-image: url(assets/img/apex-hero-wp.jpg) !important;
@@ -127,13 +125,13 @@ aside.asidePict{
   background-size: cover;
 }
 
-#download{
+#download {
   padding-top: 5rem;
-    padding-bottom: 5rem;
+  padding-bottom: 5rem;
   background: linear-gradient(45deg, #f90000, #000000) !important;
 }
 
-#apexCoin{
+#apexCoin {
   top: 120px;
   right: 600px;
   width: 140px;
@@ -142,7 +140,7 @@ aside.asidePict{
   filter: drop-shadow(10px 0px 60px #ff0000);
 }
 
-#lootApex{
+#lootApex {
   top: 380px;
   right: 320px;
   width: 200px;
@@ -151,15 +149,36 @@ aside.asidePict{
   filter: drop-shadow(5px 5px 60px #ff0000);
 }
 
-#apexBronz{
+#apexBronz {
   right: 300px;
   width: 150px;
   position: absolute;
   z-index: 1;
   filter: drop-shadow(2px 2px 5px #ff0000);
-
 }
 
-#predatOr{
+#predatOr {
   filter: drop-shadow(2px 2px 30px #ff0000);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: #a92020;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
 }
