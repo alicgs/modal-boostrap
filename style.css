@@ -42,6 +42,7 @@ body {
 }
 
 #img-phone {
+  
   z-index: -1;
   width: 260px;
   /*  margin-left: 168px ;
@@ -97,9 +98,9 @@ aside {
 }
 
 #imgChar {
-  border-radius: 100px;
+  border-radius: 50px;
   bottom: 0;
-  width: 345px !important;
+  width: 344px !important;
   position: absolute;
   z-index: -1;
   left: 40px;
@@ -132,3 +133,26 @@ aside.asidePict{
   background: linear-gradient(45deg, #f90000, #000000) !important;
 }
 
+#apexCoin{
+  top: 120px;
+  right: 600px;
+  width: 140px;
+  position: absolute;
+  z-index: 2;
+}
+
+#lootApex{
+  top: 380px;
+  right: 320px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+}
+
+#apexBronz{
+  right: 300px;
+  width: 150px;
+  position: absolute;
+  z-index: 1;
+
+}
