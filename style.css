@@ -47,7 +47,7 @@ body {
   width: 260px;
 }
 
-#Phone-icon{
+#Phone-icon {
   filter: drop-shadow(2px 2px 20px #ff0000);
 }
 
@@ -85,9 +85,9 @@ aside {
   filter: blur(18px);
 }
 
-.icon-hover:hover {
+/* .icon-hover:hover {
   color: #f90000;
-}
+} */
 
 .features {
   padding-top: 5rem;
@@ -163,13 +163,6 @@ aside.asidePict {
   filter: drop-shadow(2px 2px 30px #ff0000);
 }
 
-/* #legend-icon{
- 
-} */
-
-
-
-
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -197,4 +190,11 @@ aside.asidePict {
 
 #submitButton {
   background: linear-gradient(45deg, #f90000, #000000) !important;
+}
+
+@media (max-width: 768px) {
+  .masthead .py-5,
+  .masthead.py-5 {
+    padding-bottom: 0 !important;
+  }
 }
