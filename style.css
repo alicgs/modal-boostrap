@@ -198,3 +198,11 @@ aside.asidePict {
     padding-bottom: 0 !important;
   }
 }
+
+@media screen and (max-width: 1400px) {
+  .lors-img{
+    display: none !important;
+  }
+  
+}
+
