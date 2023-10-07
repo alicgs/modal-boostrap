@@ -85,9 +85,9 @@ aside {
   filter: blur(18px);
 }
 
-/* .icon-hover:hover {
+.icon-hover:hover {
   color: #f90000;
-} */
+} 
 
 .features {
   padding-top: 5rem;
@@ -191,6 +191,7 @@ aside.asidePict {
 #submitButton {
   background: linear-gradient(45deg, #f90000, #000000) !important;
 }
+
 
 @media (max-width: 768px) {
   .masthead .py-5,
